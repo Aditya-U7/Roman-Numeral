@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>roman numeral</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Insert the number in the textbox(4 digits):</h1>
+    <input type="text" id="u_input" name="User input" placeholder="4 digit number" maxlength=4><br><br>
+    <input type="text" id="answer" name="Roman numeral" placeholder="Roman numeral is:" maxlength=20><br><br>
+    <button type="button" class="but_convert" onclick=document.getElementById("answer").value=roman_numeral()>Convert </button>
+    <button type="button" class="refresh_convert" onclick=reloadPage()>Refresh </button>
+    <script src="roman.js"></script>
+
+  </div>
+</body>
+
+</html>
