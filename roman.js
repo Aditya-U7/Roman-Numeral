@@ -101,7 +101,7 @@ function thousand_place(t) {
     } else if (t > 4 && t < 9) {
         rt = "Ṽ";
     }
-    if (t > 5) {
+    if (t > 5 && t < 9) {
         for (var i = 0; i < t - 5; i++) {
             rt = rt + "M";
         }
